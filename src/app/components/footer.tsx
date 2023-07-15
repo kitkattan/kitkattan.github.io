@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import Facebook from '../images/logos/fb.svg'
 import Insta from '../images/logos/ig.svg'
 import Behanced from '../images/logos/behance.svg'
@@ -12,15 +13,20 @@ function Footer(){
     return <div className="p-10 pb-40 bg-white text-black">
         <div className="float-left w-1/2">
             <p> KATRINA <br /> BERNICE <br /> M. TAN </p> <br />
-            <div>
-                <Image
-                    src={Facebook}
-                    alt={'Facebook logo'}
-                    width={20}
-                    height={20}
-                
+            <div style = {{
+                display: 'grid',
+                gridTemplateColumns: '25px 30px 30px 30px 20px',
+            }}>
+                <Link href={'https://www.youtube.com/watch?v=LTRWgZjRViw'}>
+                    <Image
+                        src={Facebook}
+                        alt={'Facebook logo'}
+                        width={20}
+                        height={20}
+                    />
                     
-                />
+                </Link>
+
                 <Image
                     src={Insta}
                     alt={'Facebook logo'}
@@ -44,7 +50,7 @@ function Footer(){
                     src={Linkedin}
                     alt={'Facebook logo'}
                     width={20}
-                    height={20}
+                    height={15}
                 />
             </div>
         </div>
