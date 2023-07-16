@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from '../components/header';
-import Footer from '../components/footer';
 import RedBackground from '../images/backgrounds/main-red.svg';
 import Image from 'next/image';
 
@@ -17,9 +16,7 @@ const Home = () => {
                 <Image 
                     src={RedBackground}
                     quality = {100}
-                    
-                    alt='red background'
-                    
+                    alt='red background'      
                 />
                 <div className = 'top-1/2' style = {{position: 'absolute',}}>
                     <div className="float-left w-1/2">
