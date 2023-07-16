@@ -54,7 +54,7 @@ function Footer(){
                 />
             </div>
         </div>
-        <div className="float-right w-1/2text-right pr-10">
+        <div className="float-right w-1/2 text-right pr-0">
             <a href="#" className="pr-8"> HOME </a> <br />
             <a href="#"className="pr-8"> PORTFOLIO </a> <br />
             <a href="#"className="pr-8"> CURRICULUM VITAE </a> <br />

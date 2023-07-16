@@ -8,6 +8,7 @@ export default function app() {
   return (
     <div>
       <Home />
+      <Footer />
     </div>
   )
 }
